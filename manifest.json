@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "AlphaRune",
+    "version": "1.0",
+  
+    "description": "Adds a browser action icon to the toolbar. Click the convert button to convert from the alphabet to runes.",
+    "homepage_url": "https://github.com/Onyxqk/alpharune",
+    "icons": {
+      "48": "alpharune.png"
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+  
+    "browser_action": {
+      "default_icon": "alpharune.png",
+      "default_title": "AlphaRune",
+      "default_popup": "index.html"
+    }
+  
+  }
