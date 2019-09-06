@@ -1,5 +1,5 @@
 function ioHandler() {
-    document.getElementById('content').innerHTML=convert(document.getElementById('input').value);
+    document.getElementById('content').textContent=convert(document.getElementById('input').value);
   }
 
 function enterHandler(e) {
