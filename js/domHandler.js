@@ -12,6 +12,8 @@ function ioHandler() {
     case "longBranch":
         runeSet = longBranch;
         break;
+    case "shortTwig":
+        runeSet = shortTwig;
   }
   content.textContent = convert(input, runeSet);
 }

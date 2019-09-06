@@ -1,14 +1,3 @@
-class RuneSet {
-    constructor(map) {
-        this.conceal = map;
-        this.reveal = {};
-        for (let key in map) {
-            const value = map[key];
-            this.reveal[value] = key;
-        }
-    }
-}
-
 const elderFuthark = new RuneSet({
     'a': 'ᚨ', 'b': 'ᛒ', 'c': 'ᚲ', 'd': 'ᛞ',
     'e': 'ᛖ', 'f': 'ᚠ', 'g': 'ᚷ', 'h': 'ᚺ',
@@ -39,16 +28,17 @@ const longBranch = new RuneSet({
     'm': 'ᛘ', 'n': 'ᚾ', 'o': 'ᚢ', 'b': 'ᛒ',
     'k': 'ᚴ', 'r': 'ᚱ', 'z': 'ᛋ', 't': 'ᛏ',
     'w': 'ᚢ', 'f': 'ᚠ', 'u': 'ᚢ', 'x': 'ᚴᛋ',
-    'i': 'ᛁ', 's': 'ᛋ', 'ae': 'ᚬ', ' ': ' '
+    'i': 'ᛁ', 's': 'ᛋ', 'ae': 'ᚬ', 'ʀ': 'ᛦ', 
+    ' ': ' '
 });
 
-function convert(input, runeSet) {
-    convertToRunes = input.split('').map(function (letter) {
-        return runeSet.conceal[letter.toLowerCase()];
-    }).join('');
-    convertFromRunes = input.split('').map(function (rune) {
-        return runeSet.reveal[rune];
-    }).join('');
-    output = convertToRunes + convertFromRunes;
-    return output;
-}
+const shortTwig = new RuneSet({
+    'a': 'ᛆ', 'p': 'ᛓ', 'c': 'ᚴ', 'd': 'ᛐ',
+    'e': 'ᛁ', 'v': 'ᚠ', 'g': 'ᚴ', 'h': 'ᚽ',
+    'j': 'ᛁ', 'y': 'ᛁ', 'q': 'ᚴ', 'l': 'ᛚ',
+    'm': 'ᛙ', 'n': 'ᚿ', 'o': 'ᚢ', 'b': 'ᛓ',
+    'k': 'ᚴ', 'r': 'ᚱ', 'z': 'ᛌ', 't': 'ᛐ',
+    'w': 'ᚢ', 'f': 'ᚠ', 'u': 'ᚢ', 'x': 'ᚴᛌ',
+    'i': 'ᛁ', 's': 'ᛌ', 'ae': 'ᚭ', 'ʀ': 'ᛧ',
+    ' ': ' '
+});
