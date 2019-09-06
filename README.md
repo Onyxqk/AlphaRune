@@ -1,3 +1,3 @@
 # AlphaRune
 
-Conversion from the Latin alphabet to runes and vice versa
+Browser extension to convert the Latin alphabet to and from runes
