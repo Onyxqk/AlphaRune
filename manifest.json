@@ -3,7 +3,7 @@
     "name": "AlphaRune",
     "version": "1.0",
   
-    "description": "Adds a browser action icon to the toolbar. Click the convert button to convert from the alphabet to runes.",
+    "description": "Browser extension to convert the Latin alphabet to and from runes",
     "homepage_url": "https://github.com/Onyxqk/alpharune",
     "icons": {
       "48": "alpharune.png"
