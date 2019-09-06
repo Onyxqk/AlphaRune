@@ -1,4 +1,4 @@
-class runeSet {
+class RuneSet {
     constructor(map) {
         this.conceal = map;
         this.reveal = {};
@@ -9,7 +9,7 @@ class runeSet {
     }
 }
 
-const elderFuthark = new runeSet({
+const elderFuthark = new RuneSet({
     'a': 'ᚨ', 'b': 'ᛒ', 'c': 'ᚲ', 'd': 'ᛞ',
     'e': 'ᛖ', 'f': 'ᚠ', 'g': 'ᚷ', 'h': 'ᚺ',
     'i': 'ᛁ', 'y': 'ᛃ', 'q': 'ᚲ', 'l': 'ᛚ',
@@ -20,7 +20,7 @@ const elderFuthark = new runeSet({
     'ae': 'ᛇ', ' ': ' '
 });
 
-const futhorc = new runeSet({
+const futhorc = new RuneSet({
     'a': 'ᚪ', 'b': 'ᛒ', 'c': 'ᚳ', 'd': 'ᛞ',
     'e': 'ᛖ', 'f': 'ᚠ', 'g': 'ᚷ', 'h': 'ᚻ',
     'i': 'ᛁ', 'j': 'ᛄ', 'k': 'ᛣ', 'l': 'ᛚ',
@@ -30,6 +30,16 @@ const futhorc = new runeSet({
     'y': 'ᚣ', 'z': 'ᚴ', 'ng': 'ᛝ', 'th': 'ᚦ',
     'ae': 'ᛇ', 'oe': 'ᛟ', 'io' : 'ᛡ', 'ea' : 'ᛠ',
      'st': 'ᛥ', ' ': ' '
+});
+
+const longBranch = new RuneSet({
+    'a': 'ᛅ', 'p': 'ᛒ', 'c': 'ᚴ', 'd': 'ᛏ',
+    'e': 'ᛁ', 'v': 'ᚠ', 'g': 'ᚴ', 'h': 'ᚼ',
+    'j': 'ᛁ', 'y': 'ᛁ', 'q': 'ᚴ', 'l': 'ᛚ',
+    'm': 'ᛘ', 'n': 'ᚾ', 'o': 'ᚢ', 'b': 'ᛒ',
+    'k': 'ᚴ', 'r': 'ᚱ', 'z': 'ᛋ', 't': 'ᛏ',
+    'w': 'ᚢ', 'f': 'ᚠ', 'u': 'ᚢ', 'x': 'ᚴᛋ',
+    'i': 'ᛁ', 's': 'ᛋ', 'ae': 'ᚬ', ' ': ' '
 });
 
 function convert(input, runeSet) {

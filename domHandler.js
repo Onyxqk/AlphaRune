@@ -1,16 +1,19 @@
 function ioHandler() {
   var content = document.getElementById('content');
   var selectedRuneSet = document.getElementById('runeSets').options[runeSets.selectedIndex].value;
-  var input = document.getElementById('input');
+  var input = document.getElementById('input').value;
   switch(selectedRuneSet) {
     case "elderFuthark":
-      runeSetValue = elderFuthark;
+      runeSet = elderFuthark;
       break;
     case "futhorc":
-        runeSetValue = futhorc;
+        runeSet = futhorc;
       break;
+    case "longBranch":
+        runeSet = longBranch;
+        break;
   }
-  content.textContent = convert(input.value, runeSetValue);
+  content.textContent = convert(input, runeSet);
 }
 
 function enterHandler(e) {
