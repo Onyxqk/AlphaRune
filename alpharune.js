@@ -1,4 +1,4 @@
-class seer {
+class runeSet {
     constructor(map) {
         this.conceal = map;
         this.reveal = {};
@@ -9,7 +9,7 @@ class seer {
     }
 }
 
-const runeSeer = new seer({
+const elderFuthark = new runeSet({
     'a': 'ᚨ', 'b': 'ᛒ', 'c': 'ᚲ', 'd': 'ᛞ',
     'e': 'ᛖ', 'f': 'ᚠ', 'g': 'ᚷ', 'h': 'ᚺ',
     'i': 'ᛁ', 'y': 'ᛃ', 'q': 'ᚲ', 'l': 'ᛚ',
@@ -20,12 +20,12 @@ const runeSeer = new seer({
     'ae': 'ᛇ', ' ': ' '
 });
 
-function convert(input) {
+function convert(input, runeSet) {
     convertToRunes = input.split('').map(function (letter) {
-        return runeSeer.conceal[letter.toLowerCase()];
+        return runeSet.conceal[letter.toLowerCase()];
     }).join('');
     convertFromRunes = input.split('').map(function (rune) {
-        return runeSeer.reveal[rune];
+        return runeSet.reveal[rune];
     }).join('');
     output = convertToRunes + convertFromRunes;
     return output;

@@ -1,5 +1,5 @@
 function ioHandler() {
-    document.getElementById('content').textContent=convert(document.getElementById('input').value);
+    document.getElementById('content').textContent=convert(document.getElementById('input').value, elderFuthark);
   }
 
 function enterHandler(e) {
