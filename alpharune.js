@@ -20,6 +20,18 @@ const elderFuthark = new runeSet({
     'ae': 'ᛇ', ' ': ' '
 });
 
+const futhorc = new runeSet({
+    'a': 'ᚪ', 'b': 'ᛒ', 'c': 'ᚳ', 'd': 'ᛞ',
+    'e': 'ᛖ', 'f': 'ᚠ', 'g': 'ᚷ', 'h': 'ᚻ',
+    'i': 'ᛁ', 'j': 'ᛄ', 'k': 'ᛣ', 'l': 'ᛚ',
+    'm': 'ᛗ', 'n': 'ᚾ', 'o': 'ᚩ', 'p': 'ᛈ',
+    'q': 'ᛢ', 'r': 'ᚱ', 's': 'ᛋ', 't': 'ᛏ',
+    'u': 'ᚢ', 'v': 'ᚹ', 'w': 'ᚹ', 'x': 'ᛉ',
+    'y': 'ᚣ', 'z': 'ᚴ', 'ng': 'ᛝ', 'th': 'ᚦ',
+    'ae': 'ᛇ', 'oe': 'ᛟ', 'io' : 'ᛡ', 'ea' : 'ᛠ',
+     'st': 'ᛥ', ' ': ' '
+});
+
 function convert(input, runeSet) {
     convertToRunes = input.split('').map(function (letter) {
         return runeSet.conceal[letter.toLowerCase()];
