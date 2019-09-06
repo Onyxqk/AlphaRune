@@ -1,15 +1,15 @@
-function manageInput() {
+function manageIO() {
     document.getElementById('content').innerHTML=convert(document.getElementById('input').value);
   }
 
 function clickHandler(e) {
-    setTimeout(manageInput, 50);
+    manageIO();
   }
 
 
 function enterHandler(e) {
     if (e.which == 13 || event.keyCode == 13) {
-        manageInput();
+        manageIO();
     }
   }
 
