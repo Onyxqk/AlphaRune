@@ -18,8 +18,14 @@ function ioHandler() {
     case "medieval":
       runeSet = medieval;
       break;
+    case "ogham":
+      runeSet = ogham;
+      break;
   }
-  content.textContent = convert(input, runeSet);
+  if (runeSet === ogham && !content.textContent.includes("᚛")) { content.textContent = "᚛" + convert(input, runeSet) + "᚜" }
+  else {
+    content.textContent = convert(input, runeSet);
+  }
 }
 
 function enterHandler(e) {
