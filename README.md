@@ -2,8 +2,6 @@
 
 Browser extension to convert the Latin alphabet to and from runes
 
----
-
 Supports the following rune sets:
 * Elder Futhark  
 ᛒᚱᛟᚹᛊᛖᚱ ᛖᚲᛊᛏᛖᚾᛊᛁᛟᚾ ᛏᛟ ᚲᛟᚾᚹᛖᚱᛏ ᛏᚺᛖ ᛚᚨᛏᛁᚾ ᚨᛚᛈᚺᚨᛒᛖᛏ ᛏᛟ ᚨᚾᛞ ᚠᚱᛟᛗ ᚱᚢᚾᛖᛊ
@@ -23,7 +21,5 @@ Supports the following rune sets:
 * Ogham  
 ᚛ᚁᚏᚑᚃᚄᚓᚏ␣ᚓᚕᚈᚓᚅᚄᚔᚑᚅ␣ᚈᚑ␣ᚉᚑᚅᚃᚓᚏᚈ␣ᚈᚆᚓ␣ᚂᚐᚈᚔᚅ␣ᚐᚂᚚᚆᚐᚁᚓᚈ␣ᚈᚑ␣ᚐᚅᚇ␣ᚃᚏᚑᚋ␣ᚏᚒᚅᚓᚄ᚜  
 [Ogham is Irish and runes are Germanic, but the functionality is included regardless]
-
----
 
 Optimized for Firefox, tested in Firefox and Chrome
