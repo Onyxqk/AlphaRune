@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "AlphaRune",
-    "version": "1.1",
+    "version": "1.2",
   
     "description": "Browser extension to convert the Latin alphabet to and from runes",
     "homepage_url": "https://github.com/Onyxqk/alpharune",

@@ -22,7 +22,7 @@ function ioHandler() {
       runeSet = ogham;
       break;
   }
-  if (runeSet === ogham && !content.textContent.includes("᚛")) { content.textContent = "᚛" + convert(input, runeSet) + "᚜" }
+  if (runeSet === ogham && !input.includes("᚛") && input.match(/[a-z]/) && input.length >= 1) { content.textContent = "᚛" + convert(input, runeSet) + "᚜" }
   else {
     content.textContent = convert(input, runeSet);
   }
