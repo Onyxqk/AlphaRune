@@ -1,4 +1,48 @@
+* {
+    min-width: 250px;
+}
+
 p {
     font-family: sans-serif;
     word-wrap: break-word;
+    font-size: 20px;
+    text-align: center;
+}
+
+input {
+	display: block;
+	margin-top: 20px;
+    margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+select {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+button {
+	display: block;
+	width: 97%;
+	border: none;
+	border-radius: 10px;
+	background-color: #1A73E8;
+	color: white;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 14px 28px;
+	font-size: 16px;
+	font-family: sans-serif;
+	cursor: pointer;
+	text-align: center;
 }
