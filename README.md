@@ -22,4 +22,4 @@ Supports the following rune sets:
 ᚛ᚁᚏᚑᚃᚄᚓᚏ␣ᚓᚕᚈᚓᚅᚄᚔᚑᚅ␣ᚈᚑ␣ᚉᚑᚅᚃᚓᚏᚈ␣ᚈᚆᚓ␣ᚂᚐᚈᚔᚅ␣ᚐᚂᚚᚆᚐᚁᚓᚈ␣ᚈᚑ␣ᚐᚅᚇ␣ᚃᚏᚑᚋ␣ᚏᚒᚅᚓᚄ᚜  
 [Ogham is Irish and runes are Germanic, but the functionality is included regardless]
 
-Optimized for Firefox, tested in Firefox and Chrome
+Available for Firefox and for Chromium-based browsers such as Google Chrome and Microsoft Edge
