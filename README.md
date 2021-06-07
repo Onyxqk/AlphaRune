@@ -19,7 +19,7 @@ Supports the following rune sets:
 ᛒᚱᚮᚥᛌᛂᚱ ᛂᛪᛐᛂᚿᛌᛁᚮᚿ ᛐᚮ ᛍᚮᚿᚠᛂᚱᛐ ᛐᚼᛂ ᛚᛆᛐᛁᚿ ᛆᛚᛔᚼᛆᛒᛂᛐ ᛐᚮ ᛆᚿᛑ ᚡᚱᚮᛘ ᚱᚢᚿᛂᛌ
 
 * Ogham  
-᚛ᚁᚏᚑᚃᚄᚓᚏ␣ᚓᚕᚈᚓᚅᚄᚔᚑᚅ␣ᚈᚑ␣ᚉᚑᚅᚃᚓᚏᚈ␣ᚈᚆᚓ␣ᚂᚐᚈᚔᚅ␣ᚐᚂᚚᚆᚐᚁᚓᚈ␣ᚈᚑ␣ᚐᚅᚇ␣ᚃᚏᚑᚋ␣ᚏᚒᚅᚓᚄ᚜  
+᚛ᚁᚏᚑᚃᚄᚓᚏ ᚓᚕᚈᚓᚅᚄᚔᚑᚅ ᚈᚑ ᚉᚑᚅᚃᚓᚏᚈ ᚈᚆᚓ ᚂᚐᚈᚔᚅ ᚐᚂᚚᚆᚐᚁᚓᚈ ᚈᚑ ᚐᚅᚇ ᚃᚏᚑᚋ ᚏᚒᚅᚓᚄ᚜  
 [Ogham is Irish and runes are Germanic, but the functionality is included regardless]
 
 Available for Firefox and for Chromium-based browsers such as Google Chrome and Microsoft Edge
