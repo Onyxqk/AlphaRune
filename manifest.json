@@ -9,10 +9,6 @@
       "48": "alpharune.png"
     },
   
-    "permissions": [
-      "activeTab"
-    ],
-  
     "browser_action": {
       "default_icon": "alpharune.png",
       "default_title": "AlphaRune",
